@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="type.css">
+</head>
+<body>
+
+    <header class="header"> 
+        <a href="#" class="logo">portfoli</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#about">about</a>
+        <a href="#service">service</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#contact">contact</a>
+        </nav>
+        </header>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello,It's Me</h3>
+                <h1>yuvraj coder</h1>
+                <div class="conainer">
+
+                    <h3>And I'm a <span class="text sec-text">frelancer</span>
+                </div></h3>
+                <p>High Quality Web Icons
+                    Simple Open Source icons carefully crafted for designers & developers</p>
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                    <a href="#" class="btn">Download Cv</a>
+            </div>
+            <div class="home-img">
+                <img src="look1.png" alt="">
+            </div>
+            </section>
+            <!--about section-->
+            <section class="about" id="about">
+                <div class="about-img">
+                    <img src="new.png" alt="">
+                    </div>
+
+                    <div class="about-content">
+                        <h2 class="heading">About <span>Me</span></h2>
+                        <h3>Frontend Developer</h3>
+                        <p>High Quality Web Icons
+                            Simple Open Source icons carefully crafted for designers & developers</p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+            </section>
+             <!--service-->
+
+        <section class="service" id="service">
+            <h2 class="heading">Our<span> Services</span></h2>
+            <div class="services-container">
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web <span>Developer</span></h3> 
+                    <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="service-box">
+                    <i class='bx bx-bar-chart-alt'></i>
+                    <h3> Degital <span>marcket</span></h3>
+                    <h3></h3>
+                       
+                    <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="service-box">
+                    <i class='bx bxs-paint'></i>
+                    <h3> Grafics<span> Disign</span></h3> 
+                    <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!--PORTFOLIO-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Lates<span>project</span></h2>
+            <div class="portfolio-container">
+                <div class="protfolio-box">
+                    <img src="yuvraj.jpg">
+                    <div class="portfolio-layer">
+                        <h4>web disign</h4>
+                        <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                        <a href="#"><i class='bx bxs-paint'></i></a>
+                    </div>
+                </div>
+                <div class="protfolio-box">
+                    <img src="yuvraj.jpg">
+                    <div class="portfolio-layer">
+                        <h4>web disign</h4>
+                        <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                        <a href="#"><i class='bx bxs-paint'></i></a>
+                    </div>
+                </div>
+                <div class="protfolio-box">
+                    <img src="yuvraj.jpg">
+                    <div class="portfolio-layer">
+                        <h4>web disign</h4>
+                        <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                        <a href="#"><i class='bx bxs-paint'></i></a>
+                    </div>
+                </div>
+                <div class="protfolio-box">
+                    <img src="yuvraj.jpg">
+                    <div class="portfolio-layer">
+                        <h4>web disign</h4>
+                        <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                        <a href="#"><i class='bx bxs-paint'></i></a>
+                    </div>
+                </div>
+                <div class="protfolio-box">
+                    <img src="yuvraj.jpg">
+                    <div class="portfolio-layer">
+                        <h4>web disign</h4>
+                        <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                        <a href="#"><i class='bx bxs-paint'></i></a>
+                    </div>
+                </div>
+                <div class="protfolio-box">
+                    <img src="yuvraj.jpg">
+                    <div class="portfolio-layer">
+                        <h4>web disign</h4>
+                        <p>High Quality Web Iconspen Source icons carefully crafted for designers & developers</p>
+                        <a href="#"><i class='bx bxs-paint'></i></a>
+                    </div>
+                </div>
+                </div>
+                
+        </section>
+
+        <section class="contact" id="contact">
+
+        </section>
+<!--portfolio-->          
+</body>
+<script>
+    const text = document.querySelector('.sec-text');
+    const textload = () => {
+        setTimeout(() => {
+            text.textContent = "fron-end devolper";
+        }, 0);
+        setTimeout(() => {
+            text.textContent = "freelancer";
+        }, 3100);
+        setTimeout(() => {
+            text.textContent = "web devlper";
+        }, 5500);
+    }
+    textload();
+    setInterval(textload, 12000);
+</script>
+</html>
